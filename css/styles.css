@@ -1,0 +1,14 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron {
+    position: relative;
+    margin: 0;
+    background-image: url("img/chuckwagon_bbq_header_crop.jpg");
+    background-size: cover;
+}
+.navbar {
+    background-color: darkred;
+}
+
