@@ -1,14 +1,64 @@
-body {
-    font-family: "Open Sans", sans-serif;
+/* Background image */
+.jumbotron {
+    margin: 0;
+    text-align: center;
+    padding-top: 10rem;
+    text-shadow: 2px 2px #000;
+  }
+
+  
+  .lead span {
+    color: orange;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-family: "Docktrin Regular";
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px white
+    ;
+  }
+
+
+  #bookButton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: none;
+    align-content: flex-end;
+  }
+  
+  .bg-cover {
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: -2;
+  }
+  
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+.navbar {
+    margin-bottom: 35px;
+    background-color: darkred;
 }
 
-.jumbotron {
-    position: relative;
-    margin: 0;
-    background-image: url("img/chuckwagon_bbq_header_crop.jpg");
-    background-size: cover;
+h2 {
+    margin-bottom: 35px;
+    font-family: "Docktrin Regular";
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px darkred
 }
-.navbar {
-    background-color: darkred;
+
+.carousel {
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 

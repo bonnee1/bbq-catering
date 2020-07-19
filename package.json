@@ -15,7 +15,16 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonnee1/bbq-catering.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bonnee1/bbq-catering/issues"
+  },
+  "homepage": "https://github.com/bonnee1/bbq-catering#readme"
 }
