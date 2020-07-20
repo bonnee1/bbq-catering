@@ -2,7 +2,7 @@
 .jumbotron {
     margin: 0;
     text-align: center;
-    padding-top: 10rem;
+    
     text-shadow: 2px 2px #000;
   }
 
@@ -14,10 +14,9 @@
 
   h1 {
     font-family: "Docktrin Regular";
-    font-size: 100px;
+    font-size: 75px;
     text-transform: uppercase;
-    text-shadow: 3px 3px white
-    ;
+    text-shadow: 3px 3px white;
   }
 
 
@@ -44,21 +43,42 @@
     right: 0;
     z-index: -1;
   }
+
+  .logo {
+    height: 50px;
+    
+  }
 .navbar {
+    display: flex;
     margin-bottom: 35px;
     background-color: darkred;
+    padding: 0px;
+    
 }
 
-h2 {
+.ul {
+  justify-content: flex-end;
+}
+.nav-logo {
+  height: 100px;
+  width: 75px;
+}
+
+#bbqHead {
     margin-bottom: 35px;
     font-family: "Docktrin Regular";
-    font-size: 100px;
+    font-size: 50px;
     text-transform: uppercase;
     text-shadow: 3px 3px darkred
 }
 
 .carousel {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  
+  margin-bottom: 55px;
 }
 
+.card {
+  font-family: "Docktrin Regular";
+  margin-bottom: 55px;
+  border: none;
+}
