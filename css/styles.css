@@ -69,16 +69,5 @@
     font-family: "Docktrin Regular";
     font-size: 50px;
     text-transform: uppercase;
-    text-shadow: 3px 3px darkred
-}
-
-.carousel {
-  
-  margin-bottom: 55px;
-}
-
-.card {
-  font-family: "Docktrin Regular";
-  margin-bottom: 55px;
-  border: none;
+    text-shadow: 3px 3px darkred;
 }
