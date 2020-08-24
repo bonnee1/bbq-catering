@@ -64,10 +64,36 @@
   width: 75px;
 }
 
+
+
 #bbqHead {
     margin-bottom: 35px;
     font-family: "Docktrin Regular";
     font-size: 50px;
     text-transform: uppercase;
     text-shadow: 3px 3px darkred;
+}
+
+#cateringOptions {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  
+}
+#caterIntro {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+#buttonGrp {
+  margin-right: 0px;
+  padding-left: 35px;
+}
+
+ 
+      
+ 
+
+footer {
+  margin: 100px;
+  border: solid 1px black;
 }

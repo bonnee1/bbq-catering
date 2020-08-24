@@ -33,15 +33,11 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3">
-                    <img src="img/logo.png" class="img-fluid logo">
-                </div>
-                <div class="col">
                     <h1>Joe's Chuckwagon BBQ</h1>
-                </div>
-                <div class="col-md-4 col-xl-2 mt-4">
-                    <a role="button" class="btn btn-lg btn-danger" id="bookButton" >Book Event</a>
-                </div>
+            </div>
+            <div class="col col-12">
+                    <a role="button" class="btn  btn-danger" id="bookButton" >Book Event</a>
+            </div>
             </div>
         </div>
    
@@ -64,7 +60,7 @@
             </div>
         </div>
     </nav>
-    <div class="container container-fluid">
+    <div class="container container-fluid" id="topSection">
         <div class="row">
             <div class="col-md-6 mx-auto">
                 <h2 class="display-6 ml-auto text-center" id="bbqHead">BBQ Catering</h2>
@@ -140,30 +136,70 @@
                 </div>
             </div>
         </div>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Family-Style Pickup</h3>
+        <div class="container">
+            <div class="row" id="cateringOptions">
+                <div class="col col-5">
+                    <h2> Catering Options </h2><br>
                 </div>
-              </div>
-        
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">Delivery Only</h3>
-              </div>
+                
+                
+                <div class="btn-group btn-group-toggle" data-toggle="collapse" id="buttonGrp">
+                    <div class="col">
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#pickup" aria-expanded="false" aria-controls="pickup">Pickup</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#deliveryOnly" aria-expanded="false" aria-controls="delivery Only">Delivery</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#onsiteCater" aria-expanded="false" aria-controls="onsiteCater">Onsite Catering</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#onsiteBbq" aria-expanded="false" aria-controls="onsiteBbq">Onsite Chuckwagon BBQ</button>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-              <div class="card-body">
-                <h3 class="card-title">Onsite Catering</h3>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Full Service Chuckwagon BBQ</h3>
-            </div>
-          </div>
+            <div class="row">
+                <div class="col col-5">
+                    <p id="caterIntro">  Let us cater your next event with our authentic Santa Maria style BBQ. We offer a variety of catering options for groups of 20 and up.
+                        We deliver comfort food for your guests with homestyle cooking and on or offsite grilling.  We have menu options for all occasions and budgets!  Our western style bbq wagons set a unique 
+                        background to food from the the early west.  To place an order, get a quote or schedule a tasting, give us a call, send us an email or fill out the form below.</p>
+                </div>
+                <div class="collapse col" id="pickup" data-parent="buttonGrp">
+                    <p>For groups of 10 or more guests, we pack each meat and side order “family style” in separate, sealed aluminum catering pans, 
+                    and provide plates, plastic cutlery, napkins, serving utensils and wet naps for your entire group at no additional charge. 
+                    Sealed aluminum catering pans are placed into sturdy insulated containers to help keep your food fresh during transportation. 
+                    Our catering pans can be easily arranged on your tables and lend themselves to a buffet line when your guests are ready to enjoy the food!</p>
+                </div>
+                <div class="collapse col" id="deliveryOnly" data-parent="buttonGrp">
+                    <div class="card card-body">
+                        For groups of 10 or more guests, we pack each meat and side order “family style” in separate, sealed aluminum catering pans, 
+                        and provide plates, plastic cutlery, napkins, serving utensils and wet naps for your entire group at no additional charge. 
+                        Sealed aluminum catering pans are placed into sturdy insulated containers to help keep your food fresh during transportation. 
+                        Our catering pans can be easily arranged on your tables and lend themselves to a buffet line when your guests are ready to enjoy the food!
+                    </div>
+                </div>
+                <div class="collapse col" id="onsiteCater" data-parent="buttonGrp">
+                    <div class="card card-body">
+                        For groups of 10 or more guests, we pack each meat and side order “family style” in separate, sealed aluminum catering pans, 
+                        and provide plates, plastic cutlery, napkins, serving utensils and wet naps for your entire group at no additional charge. 
+                        Sealed aluminum catering pans are placed into sturdy insulated containers to help keep your food fresh during transportation. 
+                        Our catering pans can be easily arranged on your tables and lend themselves to a buffet line when your guests are ready to enjoy the food!
+                    </div>
+                </div>
+                <div class="collapse col" id="onsiteBbq" data-parent="buttonGrp">
+                    <div class="card card-body">
+                        For groups of 10 or more guests, we pack each meat and side order “family style” in separate, sealed aluminum catering pans, 
+                        and provide plates, plastic cutlery, napkins, serving utensils and wet naps for your entire group at no additional charge. 
+                        Sealed aluminum catering pans are placed into sturdy insulated containers to help keep your food fresh during transportation. 
+                        Our catering pans can be easily arranged on your tables and lend themselves to a buffet line when your guests are ready to enjoy the food!
+                    </div>
+                </div>
+            </div>        
         </div>
+    
+         
+           
+        
     <footer class="site-footer">
         <div class="container">
             <div class="row">

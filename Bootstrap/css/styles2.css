@@ -1,25 +1,25 @@
 /* Background image */
-.jumbotron {
-    text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    text-shadow: 2px 2px #000;
-  }
+.navbar {
+  background-color: brown;
   
+}
+.jumbotron {
+  margin: 0;
+  text-align: center;
+}
+
+}
   .lead span {
     color: orange;
     font-weight: bold;
   }
   
   .bg-cover {
-    background-image: url('css/img/chuckwagon_bbq_header_crop.jpg');
     background-size: cover;
-    color: white;
-    background-position: center center;
+    background-position: top center;
     position: relative;
     z-index: -2;
   }
-  
   .overlay {
     background-color: #000;
     opacity: 0.5;
@@ -30,3 +30,11 @@
     right: 0;
     z-index: -1;
   }
+  h1 {
+    color: blanchedalmond;
+    font-family: "Docktrin Regular";
+    font-size: 75px;
+    text-transform: uppercase;
+    background-color: azure;
+  }
+ 
